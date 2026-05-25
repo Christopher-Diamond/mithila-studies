@@ -8,14 +8,16 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        Mithila Studies
+        Network
       image:
         filename: welcome.jpg
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+
+        The **Mithila Studies Network** was founded by Coralynn V. Davis, Christopher L. Diamond, and Pranav Prakash to cultivate cutting-edge research and scholarship on Mithila-related subjects with a view to making lasting contributions to the broader humanities, social sciences and arts.
+
+        As our inaugural venture, we organised a day-long hybrid symposium at the 50th Annual Conference on South Asia, at the University of Wisconsin-Madison (USA), on 19 October 2022. Building on the success of our symposium, we have edited a special issue for *Asian Ethnology*, which initiates new lines of inquiry within Mithila Studies while also illustrating the productive ways in which research on Mithila Studies can transform the broader academy.
   
   - block: collection
     content:
@@ -39,42 +41,9 @@ sections:
   - block: markdown
     content:
       title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: coders.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
-
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
-  - block: markdown
-    content:
-      title:
       subtitle:
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./people/" cta_text="Meet the network →" %}}
     design:
       columns: '1'
 ---
