@@ -1,0 +1,14 @@
+// Align event list year labels with event title
+.col-lg-2 h3 {
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+// Keep year label vertically aligned with event title
+.row:has(.col-lg-2 h3) {
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
