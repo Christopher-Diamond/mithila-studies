@@ -7,16 +7,13 @@ type: landing
 sections:
   - block: people
     content:
-      title: Meet the Team
+      title: Network Members
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Principal Investigators
+          - Founding Members & Co-Directors
           - Researchers
-          - Grad Students
-          - Administration
-          - Visitors
-          - Alumni
+          - Postgraduate Researchers
       sort_by: Params.last_name
       sort_ascending: true
     design:
